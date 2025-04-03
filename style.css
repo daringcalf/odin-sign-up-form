@@ -78,8 +78,10 @@ main header {
   padding: 5%;
 }
 
-.header-text {
+main header .header-text {
   margin-top: auto;
+  max-width: 500px;
+  line-height: 1.3;
 }
 
 .header-text p {
@@ -116,6 +118,7 @@ main header {
   letter-spacing: 0.1rem;
   font-size: 0.6rem;
   margin-bottom: 0.2rem;
+  color: #333;
 }
 
 .form-container form {
@@ -151,6 +154,7 @@ input:invalid {
 }
 
 .button-section {
+  margin-top: 2%;
   padding-left: 5%;
   display: flex;
   flex-direction: column;
@@ -167,6 +171,7 @@ input:invalid {
   cursor: pointer;
   font-size: 0.8rem;
   font-weight: 500;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 .button-section button:hover {
